@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(51, 51, 51);
+        }
+
+        header {
+            background-color: rgb(19, 19, 19);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            width: 500px;
+            margin: auto;
+        }
+
+        .d1 {
+            background-color: white;
+            width: 445px;
+            height: 230px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 50px 10px 20px 10px;
+        }
+
+        .d1 h1 {
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        table {
+            border-collapse: collapse;    
+        }
+
+        .d1 td, th {
+            border: 1px solid rgb(37, 37, 37);
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        thead {
+            background-color: rgb(12, 12, 12);
+            color: white;
+        }
+
+        .d1 {
+            display: inline-block;
+        }
+
+        .d2 {
+            display: block;
+            background-color: white;
+            width: 445px;
+            height: 230px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 100px 10px 20px 10px;
+        }
+
+        .d2 h1 {
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        .d2 td, th {
+            border: 1px solid rgb(37, 37, 37);
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desafios de Tabelas</h1>
+    </header>
+    <main>
+        <section>
+            <div class="d1">
+                <h1>Desafio 1</h1>
+                    <table>
+                        <thead>
+                            <th>A</th>
+                            <th>B</th>
+                            <th>C</th>
+                            <th>D</th>
+                        </thead>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td rowspan="2">3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">8</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">10</td>
+                            <td colspan="2">11</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="d2">
+                <table>
+                    <h1>Desafio 2</h1>
+                    <thead>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">A</td>
+                            <td rowspan="4">B</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">C</td>
+                            <td>D</td>
+                            <td>E</td>
+                            <td>F</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>G</td>
+                            <td>H</td>
+                            <td>I</td>
+                        </tr>
+                        <tr>
+                            <td>J</td>
+                            <td>L</td>
+                            <td>M</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">N</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

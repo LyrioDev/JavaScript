@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+div {
+    background-color: lightgray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block; /* Alinha tudo na mesma linha */
+
+}
+
+/*
+    : - é uma pseudoclasse
+    hover: quando o mause é passado por cima acontece uma
+    animação
+*/
+div:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead th {
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+thead th:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#num {
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+#num:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+#destaque {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 5px;
+}
+
+#destaque:hover {
+    background-color: gray;
+}
+
+#normal {
+    font-weight: normal;
+}
+
+:hover {
+    transition-duration: 0.5s;
+}
