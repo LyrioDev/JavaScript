@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+
+    {
+      "name": "Launch Brave",
+      "type": "chrome",
+      "request": "launch",
+      "runtimeExecutable": "/usr/bin/brave-browser",  // Atualize com o caminho correto
+      "runtimeArgs": [
+        "--remote-debugging-port=9222"
+      ],
+      "url": "http://localhost:5501",  // Seu URL de desenvolvimento
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
